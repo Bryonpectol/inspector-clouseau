@@ -1,3 +1,7 @@
 let h1Main = document.getElementById("h1Main");
 
-h1Main.textContent = "Inspector Clouseau"
+let Update = document.getElementById("update");
+
+h1Main.textContent = "Inspector Clouseau";
+
+Update.textContent = "Page updated at: " + document.lastModified;
