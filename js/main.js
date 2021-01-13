@@ -10,6 +10,8 @@ let Windowie = document.getElementById("windowsize");
 
 let Offset = document.getElementById("windowoffset");
 
+let URl = document.getElementById("windowurl");
+
 Title.textContent = "Document Title: " + document.title;
 
 h1Main.textContent = "Inspector Clouseau";
@@ -20,4 +22,6 @@ Update.textContent = "Page updated at: " + document.lastModified;
 Windowie.textContent = "Window Size: Width - " + screen.width + " : Height - " + screen.height;
 
 Offset.textContent = "Window offset: " + window.pageXOffset + window.pageYOffset;
+
+URl.textContent = "Current URL: " + window.location.href;
 
