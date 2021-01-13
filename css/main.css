@@ -5,7 +5,7 @@
 
 nav {
     position: fixed;
-    background-color: darkcyan;
+    background-color: #0D5C70;
     width: 100%;
     height: 6.5vh;
 }
@@ -27,11 +27,14 @@ nav {
 }
 
 .nava:hover {
-    background-color: black;
+    background-color: #041117;
+    cursor: pointer;
 }
 
 header {
-    background: url("");
+    background: url("/media/images/bg.jpg");
+    width: 100%;
+    height: 35vh;
 }
 
 main {
@@ -41,8 +44,23 @@ main {
 
 .mainh1 {
     padding: 10vh 0vh 0vh 5vh;
+    color: white;
 }
 
-#update {
-    margin: 5vh 0vh 0vh 5vh;
+#h2Main {
+    padding: 1vh 0vh 0vh 5vh;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.pmain {
+    margin: 8vh 0vh 0vh 5vh;
+}
+
+.skillsul {
+    margin: 3vh 0vh 0vh 7vh;
+}
+
+.info {
+    margin: 3vh 0vh 0vh 5vh;
 }
